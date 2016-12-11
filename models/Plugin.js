@@ -16,7 +16,7 @@ const Plugin = thinky.createModel('Plugin', {
     }).schema(type.object().schema({
         version: type.string(), // Version of the installed plugin version
         source: type.string(), // The plugin install will run: npm i <source> --pr....
-        ignoreVersion: type.boolean(), // If the Plugin Installer should ignore the version tag while installing. This is important for local testing
+        ignoreVersion: type.boolean(), // If the Plugin PluginInstaller should ignore the version tag while installing. This is important for local testing
         local: type.boolean()
     }))
 });
