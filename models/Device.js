@@ -25,6 +25,7 @@ Device.ensureIndex('value');
 Device.ensureIndex('displayname');
 
 /**
+ * @name Device database model
  * @description Database model for Devices
  * @module Device
  * @author Noim <nilsbergmann@noim.io>

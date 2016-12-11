@@ -22,6 +22,7 @@ const Plugin = thinky.createModel('Plugin', {
 });
 
 /**
+ * @name Plugin database model
  * @description Database model for installed plugin
  * @author Noim <nilsbergmann@noim.io>
  */
