@@ -1,3 +1,4 @@
-dir: lib
-dir: models
+dir:
+  - lib
+  - models
 packageJson: package.json
