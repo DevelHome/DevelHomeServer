@@ -51,3 +51,5 @@ jspm_packages
 plugin/
 logs/
 rethinkdb_data/
+
+.idea/
